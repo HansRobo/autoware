@@ -69,6 +69,14 @@ repositories:
     type: git
     url: https://github.com/ros-planning/navigation2.git
     version: main
+  universe/external/slam_tool_box:
+    type: git
+    url: https://github.com/SteveMacenski/slam_toolbox.git
+    version: ros2
+  universe/external/aruco_ros:
+    type: git
+    url: https://github.com/pal-robotics/aruco_ros.git
+    version: humble-devel
   # launcher
   launcher/autoware_launch:
     type: git
@@ -108,6 +116,10 @@ repositories:
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
+    version: main
+  vehicle/external/pacmod3_msgs:
+    type: git
+    url: https://github.com/astuff/pacmod3_msgs.git
     version: main
   # param
   param/autoware_individual_params:
