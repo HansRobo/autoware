@@ -8,6 +8,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
     version: main
+  core/autoware_internal_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+    version: main
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
@@ -77,6 +81,10 @@ repositories:
     type: git
     url: https://github.com/pal-robotics/aruco_ros.git
     version: humble-devel
+  universe/external/ament_cmake: # TODO(mitsudome-r): remove when https://github.com/ament/ament_cmake/pull/448 is merged
+    type: git
+    url: https://github.com/autowarefoundation/ament_cmake.git
+    version: feat/faster_ament_libraries_deduplicate
   # launcher
   launcher/autoware_launch:
     type: git
