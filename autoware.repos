@@ -40,8 +40,8 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: main
+    url: https://github.com/HansRobo/autoware.universe.git
+    version: rolling
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -78,6 +78,22 @@ repositories:
     type: git
     url: https://github.com/MapIV/llh_converter.git
     version: ros2
+  universe/external/grid_map:
+    type: git
+    url: https://github.com/ANYbotics/grid_map.git
+    version: rolling
+  universe/external/navigation2:
+    type: git
+    url: https://github.com/ros-planning/navigation2.git
+    version: main
+  universe/external/slam_tool_box:
+    type: git
+    url: https://github.com/SteveMacenski/slam_toolbox.git
+    version: ros2
+  universe/external/aruco_ros:
+    type: git
+    url: https://github.com/pal-robotics/aruco_ros.git
+    version: humble-devel
   universe/external/ament_cmake: # TODO(mitsudome-r): remove when https://github.com/ament/ament_cmake/pull/448 is merged
     type: git
     url: https://github.com/autowarefoundation/ament_cmake.git
@@ -129,6 +145,10 @@ repositories:
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
+    version: main
+  vehicle/external/pacmod3_msgs:
+    type: git
+    url: https://github.com/astuff/pacmod3_msgs.git
     version: main
   # param
   param/autoware_individual_params:
